@@ -88,8 +88,7 @@ class SecondForm(QWidget):
         return data
 
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    ex = MyWidget()
-    ex.show()
-    sys.exit(app.exec_())
+app = QApplication(sys.argv)
+ex = MyWidget()
+ex.show()
+sys.exit(app.exec_())
